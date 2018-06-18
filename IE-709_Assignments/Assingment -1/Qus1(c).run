@@ -1,0 +1,7 @@
+reset;
+option solver cplex;
+model Qus1(c).mod;
+data Qus1(c).dat;
+solve;
+display x;
+display u;
